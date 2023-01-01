@@ -1,0 +1,11 @@
+export default function Coverflow(){
+
+    return (
+        <div style={{ width:'100%',height:'100%',position:'absolute',top:'0'}}>
+            <p style={{textAlign:'center'}}>
+                <img style={{width:'300px',height:'280px',borderRadius:'30px'}} src="./images/cover2.jpg" alt="img"/>
+            </p>
+            <p style={{fontSize:'2rem',textAlign:'center',marginTop:'0',fontWeight:'900'}}>COVERFLOW</p>
+        </div>
+    )
+}
