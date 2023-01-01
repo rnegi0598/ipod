@@ -1,12 +1,12 @@
 
 import './App.css';
-import Screen from './Component/screen';
-import Wheel from './Component/wheel';
+import Screen from './Components/screen';
+import Wheel from './Components/wheel';
 import ZingTouch from 'zingtouch';
 import {useState,useEffect} from 'react';
 
-
 function App() {
+
   const [menuCard,setMenuCard]=useState(['Coverflow','Music','Games','Setting']);
   const [activeItem,setActiveItem]=useState('Coverflow');
   const [fullscreen,setFullscreen]=useState(false);
@@ -87,7 +87,6 @@ function App() {
 
   return (
     <div className="App">
-
       <Screen menuCard={menuCard} activeItem={activeItem} fullscreen={fullscreen}/>
       <Wheel wheelEnter={wheelEnter} wheelBack={wheelBack}/>
      
