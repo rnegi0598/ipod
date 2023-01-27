@@ -1,11 +1,16 @@
-Deployment link: https://endearing-bonbon-cdcce9.netlify.app/
-# Getting Started with Create React App
+# Deployment link:
+https://endearing-bonbon-cdcce9.netlify.app/
 
+# Screenshot
+![ipod](https://user-images.githubusercontent.com/45715802/215101262-0cf42c18-47c7-46b0-aa7f-e61fd211a42a.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Started with Create React App
 ## Available Scripts
 
 In the project directory, you can run:
+
+
 
 ### `npm start`
 
